@@ -25,14 +25,13 @@
             </ul>
         </nav>
     </header>
-    <!-- was content changed to semantic main-->
-    <main></main>
-    <!--TODO: is main and article used correctly? Might have to switch-->
+    <!-- changed to more accurate class name-->
+    <div class ="background-divider"></div>
     <!--was hero changed to semantic article-->
-    <article class="article">
+    <main class="article">
         <!-- added id="search-engine-optomiztion to fix broken link"-->
         <!-- was div is now semantic section-->
-        <section id="search-engine-optimization" class="search-engine-optimization">
+        <section  class="main-format">
             <!--added semantic figure-->
             <figure>
             <!--added alt text-->
@@ -44,7 +43,9 @@
             </p>
         </section>
       <!--was dic now semantic section-->
-        <section id="online-reputation-management" class="online-reputation-management">
+      <!-- removed id due to redundancy-->
+      <!-- consolidated class to main-format-->
+        <section  class="main-format">
              <!--added semantic figure-->
             <figure>
             <!--added alt text-->
@@ -56,7 +57,8 @@
             </p>
         </section>
         <!--was div is now semantic section-->
-        <section id="social-media-marketing" class="social-media-marketing">
+        <!-- consolidated class to main-format-->
+        <section class="main-format">
             <!-- added semantic figure-->
             <figure>
             <!--added alt text-->
@@ -67,11 +69,12 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-    </article>
+    </main>
     <!--was div now semantic aside-->
-    <aside class="benefits">
+    <aside>
         <!--was dic now semantic aside-->
-        <section class="benefit-lead">
+        <!-- consolidated class to main-format-->
+        <section class="benefit-format">
             <h3>Lead Generation</h3>
             <!-- added semantic figure-->
             <figure>
@@ -83,7 +86,8 @@
             </p>
         </section>
         <!--was div now semantic section-->
-        <section class="benefit-brand">
+        <!-- consolidated class to main-format-->
+        <section class="benefit-format">
             <h3>Brand Awareness</h3>
             <!--added semantic figure-->
             <figure>
@@ -95,7 +99,7 @@
             </p>
         </section>
         <!--was div now semantic section-->
-        <section class="benefit-cost">
+        <section class="benefit-format">
             <h3>Cost Management</h3>
             <!--added semantic figure-->
             <figure>
